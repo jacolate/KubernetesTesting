@@ -23,7 +23,7 @@ spec:
                 - pool-cycshsc03-rax5m
       containers:
       - name: go-storage-test
-        image: oreok/go-storage-test:latest
+        image: oreok/storage-test-go:latest
         imagePullPolicy: Always
         env:
         - name: DB_HOST
